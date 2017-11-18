@@ -16,15 +16,15 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  * ================================================================== */
 
- #include "lua.h"
- #include "lualib.h"
- #include "lauxlib.h"
- #include <string.h>
- #include <uuid/uuid.h>
+#include "lua.h"
+#include "lualib.h"
+#include "lauxlib.h"
+#include <string.h>
+#include <uuid/uuid.h>
 
- #define UUID_CLASS "uuid.uuid"
+#define UUID_CLASS "uuid.uuid"
 
- typedef struct uuid_class_ {
+typedef struct uuid_class_ {
 	uuid_t id_;
 } uuid_class;
 
